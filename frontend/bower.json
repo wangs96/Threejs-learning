@@ -1,0 +1,27 @@
+{
+  "name": "Threejs",
+  "version": "1.0.0",
+  "homepage": "https://github.com/wangs96/Threejs-learning",
+  "authors": [
+    "Todd Wang"
+  ],
+  "description": "Provide component used for this project",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "Threejs"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.7"
+  }
+}

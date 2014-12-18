@@ -1,0 +1,26 @@
+# Development tools
+.idea
+.tmp
+.sass-cache
+npm-debug.log
+.vagrant
+*.orig
+
+# Composer
+composer.phar
+
+# Project settins
+frontend/test/karma.conf.js
+frontend/test/karma.coverage.conf.js
+Gruntfile.js
+
+# Project
+frontend/bower_components/
+node_modules/
+frontend/test/reports/
+!frontend/test/reports/.gitkeep
+server/app/cache/*
+
+# Upload directories
+server/web/tests
+server/web/documents/medicalplans/
