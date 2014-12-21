@@ -14,8 +14,8 @@ function init() {
 
   //
 
-  camera = new THREE.PerspectiveCamera(27, window.innerWidth / window.innerHeight, 1, 3500);
-  camera.position.z = 2750;
+  camera = new THREE.PerspectiveCamera(30, window.innerWidth / window.innerHeight, 1, 3500);
+  camera.position.z = 500;
 
   scene = new THREE.Scene();
   scene.fog = new THREE.Fog(0x050505, 2000, 3500);
