@@ -26,4 +26,14 @@ angular.module('three', ['ui.router']).
         templateUrl: 'view/test2.html',
         controller: 'test2Ctrl'
       })
+      .state('gallery.example1', {
+        url: '/example1',
+        templateUrl: 'view/example1.html',
+        controller: 'example1Ctrl'
+      })
+      .state('gallery.example2', {
+        url: '/example2',
+        templateUrl: 'view/example2.html',
+        controller: 'example2Ctrl'
+      })
   });
