@@ -8,7 +8,7 @@
 </head>
 <body ng-app="three">
 
-  <div ui-view></div>
+  <div data-ui-view></div>
 
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/threejs/build/three.min.js"></script>
@@ -16,6 +16,14 @@
   <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 
   <script src="vendor_components/orbitControls.js"></script>
+  <script src="vendor_components/webGLDefferredRenderer.js"></script>
+  <script src="vendor_components/CopyShader.js"></script>
+  <script src="vendor_components/EffectComposer.js"></script>
+  <script src="vendor_components/FXAAShader.js"></script>
+  <script src="vendor_components/MaskPass.js"></script>
+  <script src="vendor_components/RenderPass.js"></script>
+  <script src="vendor_components/ShaderDeferred.js"></script>
+  <script src="vendor_components/ShaderPass.js"></script>
 
   <script src="script/app.js"></script>
 
@@ -24,11 +32,17 @@
   <script src="script/controller/test2Ctrl.js"></script>
   <script src="script/controller/example1Ctrl.js"></script>
   <script src="script/controller/example2Ctrl.js"></script>
+  <script src="script/controller/example3Ctrl.js"></script>
+  <script src="script/controller/example4Ctrl.js"></script>
+  <script src="script/controller/lensFlareCtrl.js"></script>
 
   <script src="script/directive/rotatingCube.js"></script>
   <script src="script/directive/particles.js"></script>
   <script src="script/directive/cubeSphere.js"></script>
   <script src="script/directive/morphGeometry.js"></script>
+  <script src="script/directive/lightSource.js"></script>
+  <script src="script/directive/areaLight.js"></script>
+  <script src="script/directive/lensFlare.js"></script>
 
   <script src="script/service/addNewCube.js"></script>
 

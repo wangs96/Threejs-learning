@@ -36,4 +36,19 @@ angular.module('three', ['ui.router']).
         templateUrl: 'view/example2.html',
         controller: 'example2Ctrl'
       })
+      .state('gallery.example3', {
+        url: '/example3',
+        templateUrl: 'view/example3.html',
+        controller: 'example3Ctrl'
+      })
+      .state('gallery.example4', {
+        url: '/example4',
+        templateUrl: 'view/example4.html',
+        controller: 'example4Ctrl'
+      })
+      .state('gallery.lensFlare', {
+        url: '/lensflare',
+        templateUrl: 'view/lensflare.html',
+        controller: 'lensFlareCtrl'
+      })
   });
