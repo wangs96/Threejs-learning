@@ -51,4 +51,14 @@ angular.module('three', ['ui.router']).
         templateUrl: 'view/lensflare.html',
         controller: 'lensFlareCtrl'
       })
+      .state('gallery.particleSystem', {
+        url: '/particle',
+        templateUrl: 'view/particleSystem.html',
+        controller: 'particleSystemCtrl'
+      })
+      .state('gallery.finalExample', {
+        url: '/final',
+        templateUrl: 'view/finalExample.html',
+        controller: 'finalExampleCtrl'
+      })
   });
