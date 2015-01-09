@@ -60,5 +60,9 @@ angular.module('three', ['ui.router']).
         url: '/final',
         templateUrl: 'view/finalExample.html',
         controller: 'finalExampleCtrl'
+      }).state('gallery.sky', {
+        url: '/sky',
+        templateUrl: 'view/sky.html',
+        controller: 'skyCtrl'
       })
   });

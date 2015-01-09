@@ -5,10 +5,12 @@
 
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="style/main.css"/>
+
 </head>
 <body ng-app="three">
 
   <div data-ui-view></div>
+
 
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/threejs/build/three.min.js"></script>
@@ -32,8 +34,14 @@
   <script src="vendor_components/SavePass.js"></script>
   <script src="vendor_components/SepiaShader.js"></script>
   <script src="vendor_components/TexturePass.js"></script>
+	<script src="script/dependcy/stats.js"></script>
+	<script src="script/dependcy/Detector.js"></script>
+	<script src="fonts/optimer_bold.typeface.js"></script>
+	<script src="fonts/optimer_regular.typeface.js"></script>
 
-  <script src="script/app.js"></script>
+
+	<script src="script/app.js"></script>
+	<script src="script/dependcy/skymodle.js"></script>
 
   <script src="script/controller/homeCtrl.js"></script>
   <script src="script/controller/test1Ctrl.js"></script>
@@ -45,6 +53,7 @@
   <script src="script/controller/lensFlareCtrl.js"></script>
   <script src="script/controller/particleSystemCtrl.js"></script>
   <script src="script/controller/finalExampleCtrl.js"></script>
+	<script src="script/controller/skyCtrl.js"></script>
 
   <script src="script/directive/rotatingCube.js"></script>
   <script src="script/directive/particles.js"></script>
@@ -54,9 +63,11 @@
   <script src="script/directive/areaLight.js"></script>
   <script src="script/directive/lensFlare.js"></script>
   <script src="script/directive/particleSystem.js"></script>
-  <script src="script/directive/finalExample.js"></script>
+	<script src="script/directive/finalExample.js"></script>
+	<script src="script/directive/particleSystem.js"></script>
+	<script src="script/directive/sky.js"></script>
 
-  <script src="script/service/addNewCube.js"></script>
+	<script src="script/service/addNewCube.js"></script>
 
 </body>
 </html>
